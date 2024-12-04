@@ -80,7 +80,7 @@ const Register = () => {
                             <option value="" disabled selected>Select your role</option>
                             <option value="doctor">doctor</option>
                             <option value="patient">patient</option>
-                            <option value="admin">admin</option>
+{/*                             <option value="admin">admin</option> */}
                         </select>
                         <div className="registerwrap">
                             <button className='registerbutton' type="submit" onClick={requestOtp}> Register </button>
